@@ -8,9 +8,9 @@ int	main(void)
 	int		fd2;
 	int		fd3;
 
-	fd1 = open("harry1.txt", O_RDONLY);
-	fd2 = open("harry2.txt", O_RDONLY);
-	fd3 = open("harry3.txt", O_RDONLY);
+	fd1 = open("test1.txt", O_RDONLY);
+	fd2 = open("test2.txt", O_RDONLY);
+	fd3 = open("test3.txt", O_RDONLY);
 	
 	if (fd1 == -1 || fd2 == -1 || fd3 == -1)
 	{
